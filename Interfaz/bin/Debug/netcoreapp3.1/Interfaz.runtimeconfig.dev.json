@@ -1,0 +1,8 @@
+{
+  "runtimeOptions": {
+    "additionalProbingPaths": [
+      "C:\\Users\\GOKU3\\.dotnet\\store\\|arch|\\|tfm|",
+      "C:\\Users\\GOKU3\\.nuget\\packages"
+    ]
+  }
+}

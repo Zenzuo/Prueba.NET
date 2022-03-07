@@ -1,0 +1,10 @@
+D:\CODE\C#\Prueba.NET\capaBD\bin\Debug\netcoreapp3.1\capaBD.deps.json
+D:\CODE\C#\Prueba.NET\capaBD\bin\Debug\netcoreapp3.1\capaBD.dll
+D:\CODE\C#\Prueba.NET\capaBD\bin\Debug\netcoreapp3.1\capaBD.pdb
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.csproj.AssemblyReference.cache
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.AssemblyInfoInputs.cache
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.AssemblyInfo.cs
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.csproj.CoreCompileInputs.cache
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.dll
+D:\CODE\C#\Prueba.NET\capaBD\obj\Debug\netcoreapp3.1\capaBD.pdb

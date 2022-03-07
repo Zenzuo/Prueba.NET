@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj": {}
+    "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj": {}
   },
   "projects": {
-    "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj": {
+    "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj",
+        "projectUniqueName": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj",
         "projectName": "capaBD",
-        "projectPath": "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj",
-        "packagesPath": "C:\\Users\\Zenzuo\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\C#\\Prueba\\capaBD\\obj\\",
+        "projectPath": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj",
+        "packagesPath": "C:\\Users\\GOKU3\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zenzuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GOKU3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Command": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",

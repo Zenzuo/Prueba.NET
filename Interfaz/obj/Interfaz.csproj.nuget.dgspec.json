@@ -1,20 +1,20 @@
 {
   "format": 1,
   "restore": {
-    "D:\\CODE\\C#\\Prueba\\Interfaz\\Interfaz.csproj": {}
+    "D:\\CODE\\C#\\Prueba.NET\\Interfaz\\Interfaz.csproj": {}
   },
   "projects": {
-    "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj": {
+    "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj",
+        "projectUniqueName": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj",
         "projectName": "capaBD",
-        "projectPath": "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj",
-        "packagesPath": "C:\\Users\\Zenzuo\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\C#\\Prueba\\capaBD\\obj\\",
+        "projectPath": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj",
+        "packagesPath": "C:\\Users\\GOKU3\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zenzuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GOKU3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -39,6 +39,16 @@
       "frameworks": {
         "netcoreapp3.1": {
           "targetAlias": "netcoreapp3.1",
+          "dependencies": {
+            "MySql.Command": {
+              "target": "Package",
+              "version": "[1.0.6, )"
+            },
+            "System.Data.SqlClient": {
+              "target": "Package",
+              "version": "[4.8.3, )"
+            }
+          },
           "imports": [
             "net461",
             "net462",
@@ -61,17 +71,17 @@
         }
       }
     },
-    "D:\\CODE\\C#\\Prueba\\capaNegocio\\capaNegocio.csproj": {
+    "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\capaNegocio.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\C#\\Prueba\\capaNegocio\\capaNegocio.csproj",
+        "projectUniqueName": "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\capaNegocio.csproj",
         "projectName": "capaNegocio",
-        "projectPath": "D:\\CODE\\C#\\Prueba\\capaNegocio\\capaNegocio.csproj",
-        "packagesPath": "C:\\Users\\Zenzuo\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\C#\\Prueba\\capaNegocio\\obj\\",
+        "projectPath": "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\capaNegocio.csproj",
+        "packagesPath": "C:\\Users\\GOKU3\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zenzuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GOKU3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -85,8 +95,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj": {
-                "projectPath": "D:\\CODE\\C#\\Prueba\\capaBD\\capaBD.csproj"
+              "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj": {
+                "projectPath": "D:\\CODE\\C#\\Prueba.NET\\capaBD\\capaBD.csproj"
               }
             }
           }
@@ -122,17 +132,17 @@
         }
       }
     },
-    "D:\\CODE\\C#\\Prueba\\Interfaz\\Interfaz.csproj": {
+    "D:\\CODE\\C#\\Prueba.NET\\Interfaz\\Interfaz.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\CODE\\C#\\Prueba\\Interfaz\\Interfaz.csproj",
+        "projectUniqueName": "D:\\CODE\\C#\\Prueba.NET\\Interfaz\\Interfaz.csproj",
         "projectName": "Interfaz",
-        "projectPath": "D:\\CODE\\C#\\Prueba\\Interfaz\\Interfaz.csproj",
-        "packagesPath": "C:\\Users\\Zenzuo\\.nuget\\packages\\",
-        "outputPath": "D:\\CODE\\C#\\Prueba\\Interfaz\\obj\\",
+        "projectPath": "D:\\CODE\\C#\\Prueba.NET\\Interfaz\\Interfaz.csproj",
+        "packagesPath": "C:\\Users\\GOKU3\\.nuget\\packages\\",
+        "outputPath": "D:\\CODE\\C#\\Prueba.NET\\Interfaz\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
-          "C:\\Users\\Zenzuo\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\GOKU3\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
         "originalTargetFrameworks": [
@@ -146,8 +156,8 @@
           "netcoreapp3.1": {
             "targetAlias": "netcoreapp3.1",
             "projectReferences": {
-              "D:\\CODE\\C#\\Prueba\\capaNegocio\\capaNegocio.csproj": {
-                "projectPath": "D:\\CODE\\C#\\Prueba\\capaNegocio\\capaNegocio.csproj"
+              "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\capaNegocio.csproj": {
+                "projectPath": "D:\\CODE\\C#\\Prueba.NET\\capaNegocio\\capaNegocio.csproj"
               }
             }
           }

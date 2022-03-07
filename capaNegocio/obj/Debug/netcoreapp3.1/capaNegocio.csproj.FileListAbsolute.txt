@@ -1,0 +1,13 @@
+D:\CODE\C#\Prueba.NET\capaNegocio\bin\Debug\netcoreapp3.1\capaNegocio.deps.json
+D:\CODE\C#\Prueba.NET\capaNegocio\bin\Debug\netcoreapp3.1\capaNegocio.dll
+D:\CODE\C#\Prueba.NET\capaNegocio\bin\Debug\netcoreapp3.1\capaNegocio.pdb
+D:\CODE\C#\Prueba.NET\capaNegocio\bin\Debug\netcoreapp3.1\capaBD.dll
+D:\CODE\C#\Prueba.NET\capaNegocio\bin\Debug\netcoreapp3.1\capaBD.pdb
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.csproj.AssemblyReference.cache
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.GeneratedMSBuildEditorConfig.editorconfig
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.AssemblyInfoInputs.cache
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.AssemblyInfo.cs
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.csproj.CoreCompileInputs.cache
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.csproj.CopyComplete
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.dll
+D:\CODE\C#\Prueba.NET\capaNegocio\obj\Debug\netcoreapp3.1\capaNegocio.pdb

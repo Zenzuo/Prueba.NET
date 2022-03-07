@@ -14,32 +14,95 @@ namespace Interfaz
     public partial class frmLogin : Form
     {
         Negocio Data = new Negocio();
+        
 
         public frmLogin()
         {
             InitializeComponent();
         }
-#region eventos
 
-#endregion
+        #region eventos
         private void btnIniciarSesion_Click(object sender, EventArgs e)
         {
-
-            if (txtUsuario.Text == "")
+            try
             {
-                MessageBox.Show("Digite un usuario");
-                return;
+                if (txtUsuario.Text == "")
+                {
+                    MessageBox.Show("Digite un usuario");
+                    return;
+                }
+                if (txtClave.Text == "")
+                {
+                    MessageBox.Show("Digite la contraseña");
+                    return;
+                }
+                DataTable dt = new DataTable();
+
+                dt = Data.buscarUsuario(txtUsuario.Text);
+
+                string clave = "", nombre = "";
+
+                if (dt == null)
+                {
+                    MessageBox.Show("Usuario no encontrado");
+                    return;
+                }
+                else
+                {
+                    foreach (DataRow row in dt.Rows)
+                    {
+                        //row[0].ToString();
+                        nombre = row[1].ToString();
+                        clave = row[2].ToString();
+                    }
+                    
+                    if (encriptar(txtClave.Text) == clave)
+                    {
+                        //Iniciar Sesion
+                        MessageBox.Show("Bienvenido " + nombre);
+
+                    }
+                    else
+                    {
+                        MessageBox.Show("Contraseña Incorrecta");
+                        return;
+                    }
+                }
+
+
             }
-            if (txtClave.Text == "")
+            catch (Exception ex)
             {
-                MessageBox.Show("Digite la contraseña");
-                return;
+                MessageBox.Show("Error: " + ex);
+                throw;
             }
-            DataTable dt;
-
-            Data.BuscarUsuario(txtUsuario.Text, txtClave.Text);
-
 
         }
+
+
+
+        #endregion
+
+        #region metodos
+        public string encriptar(string clave)
+        {
+
+            int valor;
+            int N_clave = 0;
+
+            for (int i = 0; i < clave.Length; i++)
+            {
+                valor = 0;
+                valor = Convert.ToChar(clave.Substring(i, 1));
+                N_clave = N_clave + valor;
+            }
+
+            N_clave = 5000 - N_clave + clave.Length;
+
+            string c_clave = Convert.ToString(N_clave);
+
+            return c_clave;
+        }
+        #endregion
     }
 }
