@@ -40,5 +40,13 @@ namespace capaBD
             data.Fill(tabla);
             return tabla;
         }
+        public int execute(string SQL)
+        {
+
+            SqlCommand sqlCommand = new SqlCommand(SQL, conectarbd);
+            SqlDataAdapter data = new SqlDataAdapter(sqlCommand);
+
+            return 1;
+        }
     }
 }

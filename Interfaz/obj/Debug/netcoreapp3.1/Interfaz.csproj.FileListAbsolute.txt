@@ -41,3 +41,4 @@ D:\CODE\C#\Prueba.NET\Interfaz\obj\Debug\netcoreapp3.1\Interfaz.csproj.CopyCompl
 D:\CODE\C#\Prueba.NET\Interfaz\obj\Debug\netcoreapp3.1\Interfaz.dll
 D:\CODE\C#\Prueba.NET\Interfaz\obj\Debug\netcoreapp3.1\Interfaz.pdb
 D:\CODE\C#\Prueba.NET\Interfaz\obj\Debug\netcoreapp3.1\Interfaz.genruntimeconfig.cache
+D:\CODE\C#\Prueba.NET\Interfaz\obj\Debug\netcoreapp3.1\Interfaz.frmModuloAdministrativo.resources

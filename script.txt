@@ -1,0 +1,28 @@
+CREATE TABLE Aerolineas
+   (
+      ALID int,
+      ALNOMBRE varchar(50),
+      ALESTADO nchar(1)
+   )
+CREATE TABLE ciudades
+   (
+      CIID int,
+      CINOMBRE varchar(50),
+      CIESTADO nchar(1)
+   )
+CREATE TABLE ciudades
+   (
+      USID varchar(15),
+      USNOMBRE varchar(50),
+      USESTADO int
+   )
+CREATE TABLE vuelos
+   (
+      VSNUMERO int,
+      VSAEROLINEA int,
+      VSCIUDADORI int, 
+      VSCIUDADDES int,
+      VSFECHASAL datetime,
+      VSFECHALLEG datetime,
+      VSESTADO nchar(1)
+   )

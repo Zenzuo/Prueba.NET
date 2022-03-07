@@ -14,11 +14,13 @@ namespace Interfaz
     public partial class frmLogin : Form
     {
         Negocio Data = new Negocio();
-        
+        DataTable dt = new DataTable();
 
         public frmLogin()
         {
             InitializeComponent();
+
+            txtClave.PasswordChar = '*';
         }
 
         #region eventos
@@ -36,7 +38,6 @@ namespace Interfaz
                     MessageBox.Show("Digite la contraseña");
                     return;
                 }
-                DataTable dt = new DataTable();
 
                 dt = Data.buscarUsuario(txtUsuario.Text);
 
@@ -60,7 +61,10 @@ namespace Interfaz
                     {
                         //Iniciar Sesion
                         MessageBox.Show("Bienvenido " + nombre);
-
+                        frmModuloAdministrativo frm = new frmModuloAdministrativo();
+                        frmLogin frmLogin = new frmLogin();
+                        frmLogin.Close();
+                        frm.Show();
                     }
                     else
                     {
@@ -102,6 +106,11 @@ namespace Interfaz
             string c_clave = Convert.ToString(N_clave);
 
             return c_clave;
+        }
+        public void limpiar()
+        {
+            txtUsuario.Text = "";
+            txtClave.Text = "";
         }
         #endregion
     }
